@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Control</h1>
+    <p>Search for the movie</p>
+    <form action="http://www.google.com/search">
+        <input type="text" name="q">
+        <button>Submit</button>
+    </form>
+    <br>
+    <form action="">
+        <label for="firstname">First name:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="First name">
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Surname">
+        <input type="password" required>
+        <input type="color">
+        <button>Submit</button>
+    </form>
+    <br>
+    <h2>Other form controls</h2>
+    <form action="">
+        <input type="range" min="0" max="10" name="volumelevel">
+        <textarea rows="10" cols="10"></textarea>
+        <button>Submit</button>
+    </form>
+    <h2>Checkbox</h2>
+    <form action="">
+        <label for="agree_tos"> I agree to terms of service</label>
+        <input type="checkbox" id="agree_tos" name="TOS">
+        <button>Submit</button>
+    </form>
+    <h2>Selects</h2>
+    <form action="">
+        <label for="shirtsize">Select your size shirt</label>
+        <select name="shirtselection" id="shirtsize">
+            <option value="s">Small</option>
+            <option value="m">Medium</option>
+            <option value="l">Big</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <h2>Radio buttons</h2>
+    <form action="">
+        <label for="phone">Call me</label>
+        <input type="radio" id="phone" name="contact" value="phone">
+        <label for="email">Email me</label>
+        <input type="radio" id="email" name="contact" value="email">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
